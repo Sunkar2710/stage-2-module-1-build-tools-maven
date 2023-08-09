@@ -15,9 +15,6 @@
 
     <properties>
         <junit.version>5.8.1</junit.version>
-        <maven.jar.plugin.version>2.2</maven.jar.plugin.version>
-        <maven.compiler.plugin.version>2.2</maven.compiler.plugin.version>
-        <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -35,6 +32,7 @@
                 <!-- something should be here-->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
